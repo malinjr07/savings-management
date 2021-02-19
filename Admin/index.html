@@ -1,1175 +1,1302 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from ableproadmin.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Sep 2020 18:10:08 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
+    <title>Ablepro v8.0 bootstrap admin template by Phoenixcoded</title>
     <meta charset="utf-8">
-    <title>Able Pro Bootstrap, Angular & React Admin Template</title>
-    <!-- Meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Landing page template for creative dashboard">
-    <meta name="keywords" content="Landing page template">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="">
+    <meta name="author" content="Phoenixcoded" />
     <!-- Favicon icon -->
-    <link rel="icon" href="assets/images/favicon.ico" type="image/png" sizes="16x16">
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!-- lavalamp css -->
-    <link rel="stylesheet" href="assets/css/jquery.lavalamp.css">
-    <!-- Owl Carousel -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <!-- popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!-- Main Style css -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/font/icon/icon.css" />
-	<!-- Hotjar Tracking Code for http://ableproadmin.com/ -->
-	<script>
-		(function(h,o,t,j,a,r){
-			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-			h._hjSettings={hjid:1629434,hjsv:6};
-			a=o.getElementsByTagName('head')[0];
-			r=o.createElement('script');r.async=1;
-			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-			a.appendChild(r);
-		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-	</script>
-  <!-- WiserNotify BEGIN --><script>!function () { if (window.t4hto4) console.log("WiserNotify pixel installed multiple time in this page"); else { window.t4hto4 = !0; var t = document, e = window, n = function () { var e = t.createElement("script"); e.type = "text/javascript", e.async = !0, e.src = "../pt.wisernotify.com/pixel6d4c.js?ti=1jclj6jkfc4hhry", document.body.appendChild(e) }; "complete" === t.readyState ? n() : window.attachEvent ? e.attachEvent("onload", n) : e.addEventListener("load", n, !1) } }();</script><!-- WiserNotify END -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- vendor css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    
+
 </head>
+<body class="">
+	<!-- [ Pre-loader ] start -->
+	<div class="loader-bg">
+		<div class="loader-track">
+			<div class="loader-fill"></div>
+		</div>
+	</div>
+	<!-- [ Pre-loader ] End -->
+	<!-- [ navigation menu ] start -->
+	<nav class="pcoded-navbar menu-light ">
+		<div class="navbar-wrapper  ">
+			<div class="navbar-content scroll-div " >
+				
+				<div class="">
+					<div class="main-menu-header">
+						<img class="img-radius" src="assets/images/user/avatar-2.jpg" alt="User-Profile-Image">
+						<div class="user-details">
+							<div id="more-details">UX Designer <i class="fa fa-caret-down"></i></div>
+						</div>
+					</div>
+					<div class="collapse" id="nav-user-link">
+						<ul class="list-inline">
+							<li class="list-inline-item"><a href="user-profile.html" data-toggle="tooltip" title="View Profile"><i class="feather icon-user"></i></a></li>
+							<li class="list-inline-item"><a href="email_inbox.html"><i class="feather icon-mail" data-toggle="tooltip" title="Messages"></i><small class="badge badge-pill badge-primary">5</small></a></li>
+							<li class="list-inline-item"><a href="auth-signin.html" data-toggle="tooltip" title="Logout" class="text-danger"><i class="feather icon-power"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<ul class="nav pcoded-inner-navbar ">
+					<li class="nav-item pcoded-menu-caption">
+						<label>Navigation</label>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="index.html">Default</a></li>
+							<li><a href="dashboard-sale.html">Sales</a></li>
+							<li><a href="dashboard-crm.html">CRM</a></li>
+							<li><a href="dashboard-analytics.html">Analytics</a></li>
+							<li><a href="dashboard-project.html">Project</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext">Page layouts</span></a>
+						<ul class="pcoded-submenu">
+							<li class="pcoded-hasmenu"><a href="#!">Vertical</a>
+								<ul class="pcoded-submenu">
+									<li><a href="layout-static.html" target="_blank">Static</a></li>
+									<li><a href="layout-fixed.html" target="_blank">Fixed</a></li>
+									<li><a href="layout-menu-fixed.html" target="_blank">Navbar fixed</a></li>
+									<li><a href="layout-mini-menu.html" target="_blank">Collapse menu</a></li>
+									<li><a href="layout-rtl.html" target="_blank">Vertical RTL</a></li>
+								</ul>
+							</li>
+							<li><a href="layout-horizontal.html" target="_blank">Horizontal</a></li>
+							<li><a href="layout-horizontal-2.html" target="_blank">Horizontal v2</a></li>
+							<li><a href="layout-horizontal-rtl.html" target="_blank">Horizontal RTL</a></li>
+							<li><a href="layout-box.html" target="_blank">Box layout</a></li>
+							<li><a href="layout-light.html" target="_blank">Navbar dark</a></li>
+							<li><a href="layout-dark.html" target="_blank">Dark layout <span class="pcoded-badge badge badge-danger">Hot</span></a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-layers"></i></span><span class="pcoded-mtext">Widget</span><span class="pcoded-badge badge badge-success">100+</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="widget-statistic.html">Statistic</a></li>
+							<li><a href="widget-data.html">Data</a></li>
+							<li><a href="widget-chart.html">Chart</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link"><span class="pcoded-micon"><i class="feather icon-users"></i></span><span class="pcoded-mtext">User</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="user-profile.html">Profile</a></li>
+							<li><a href="user-card.html">User Card</a></li>
+							<li><a href="user-list.html">User List</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-menu-caption">
+						<label>Admin Panel <span class="pcoded-badge badge badge-danger">NEW</span><span class="pcoded-badge badge badge-warning">HOT</span></label>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-activity"></i></span><span class="pcoded-mtext">Hospital</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="hospital-dashboard.html">Dashboard</a></li>
+							<li><a href="hospital-department.html">Department</a></li>
+							<li><a href="hospital-doctor.html">Doctor</a></li>
+							<li><a href="hospital-patient.html">Patient</a></li>
+							<li><a href="hospital-nurse.html">Nurse</a></li>
+							<li><a href="hospital-pharmacist.html">Pharmacist</a></li>
+							<li><a href="hospital-laboratorie.html">Laboratorie</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-user-check"></i></span><span class="pcoded-mtext">Membership</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="member-dashboard.html">Dashboard</a></li>
+							<li><a href="member-mail-template.html">Email templates</a></li>
+							<li><a href="member-countries.html">Country</a></li>
+							<li><a href="member-coupons.html">Coupons</a></li>
+							<li><a href="member-newsletter.html">Newsletter</a></li>
+							<li><a href="member-user.html">User</a></li>
+							<li><a href="member-membership.html">Membership</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-life-buoy"></i></span><span class="pcoded-mtext">Helpdesk</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="help-dashboard.html">Helpdesk dashboard</a></li>
+							<li><a href="help-create-ticket.html">Create ticket</a></li>
+							<li><a href="help-ticket.html">ticket list</a></li>
+							<li><a href="help-ticket-details.html">ticket Details</a></li>
+							<li><a href="help-customer.html">Customer</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-book"></i></span><span class="pcoded-mtext">School</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="school-dashboard.html">Dashboard</a></li>
+							<li><a href="school-student.html">Student</a></li>
+							<li><a href="school-parents.html">Parents</a></li>
+							<li><a href="school-teacher.html">Teacher</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link" data-toggle="tooltip" title="Student Information System"><span class="pcoded-micon"><i class="feather icon-user"></i></span><span class="pcoded-mtext">SIS</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="sis-dashboard.html">Dashboard</a></li>
+							<li><a href="sis-leave.html">Leave</a></li>
+							<li><a href="sis-evaluation.html">Evaluation</a></li>
+							<li><a href="sis-event.html">Event</a></li>
+							<li><a href="sis-circular.html">Circular</a></li>
+							<li><a href="sis-course.html">Course</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link"><span class="pcoded-micon"><i class="feather icon-target"></i></span><span class="pcoded-mtext">Crypto</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="crypto-dashboard.html">Dashboard</a></li>
+							<li><a href="crypto-exchange.html">Exchange</a></li>
+							<li><a href="crypto-wallet.html">Wallet</a></li>
+							<li><a href="crypto-transactions.html">Transactions</a></li>
+							<li><a href="crypto-history.html">History</a></li>
+							<li><a href="crypto-trading.html">Trading</a></li>
+							<li><a href="crypto-initial-coin.html">Initial coin</a></li>
+							<li><a href="crypto-ico-listing.html">Ico listing</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link"><span class="pcoded-micon"><i class="feather icon-shopping-cart"></i></span><span class="pcoded-mtext">E-Commerce</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="ecom-product.html">Product</a></li>
+							<li><a href="ecom-product-details.html">Product details</a></li>
+							<li><a href="ecom-order.html">Order</a></li>
+							<li><a href="ecom-checkout.html">Checkout</a></li>
+							<li><a href="ecom-cart.html">Shopping Cart</a></li>
+							<li><a href="ecom-customers.html">Customers</a></li>
+							<li><a href="ecom-sellers.html">Sellers</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-menu-caption">
+						<label>UI Element</label>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-box"></i></span><span class="pcoded-mtext">Basic</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="bc_alert.html">Alert</a></li>
+							<li><a href="bc_button.html">Button</a></li>
+							<li><a href="bc_badges.html">Badges</a></li>
+							<li><a href="bc_breadcrumb-pagination.html">Breadcrumb & paggination</a></li>
+							<li><a href="bc_card.html">Cards</a></li>
+							<li><a href="bc_collapse.html">Collapse</a></li>
+							<li><a href="bc_carousel.html">Carousel</a></li>
+							<li><a href="bc_grid.html">Grid system</a></li>
+							<li><a href="bc_progress.html">Progress</a></li>
+							<li><a href="bc_modal.html">Modal</a></li>
+							<li><a href="bc_spinner.html">Spinner</a></li>
+							<li><a href="bc_tabs.html">Tabs & pills</a></li>
+							<li><a href="bc_typography.html">Typography</a></li>
+							<li><a href="bc_tooltip-popover.html">Tooltip & popovers</a></li>
+							<li><a href="bc_toasts.html">Toasts</a></li>
+							<li><a href="bc_extra.html">Other</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-gitlab"></i></span><span class="pcoded-mtext">Advance</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="ac_alert.html">Sweet alert</a></li>
+							<li><a href="ac-datepicker-componant.html">Datepicker</a></li>
+							<li><a href="ac_lightbox.html">Lightbox</a></li>
+							<li><a href="ac_notification.html">Notification</a></li>
+							<li><a href="ac_pnotify.html">Pnotify</a></li>
+							<li><a href="ac_rating.html">Rating</a></li>
+							<li><a href="ac_rangeslider.html">Rangeslider</a></li>
+							<li><a href="ac_syntax_highlighter.html">Syntax highlighter</a></li>
+						</ul>
+					</li>
+					<li class="nav-item"><a href="animation.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-aperture"></i></span><span class="pcoded-mtext">Animations</span></a></li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-feather"></i></span><span class="pcoded-mtext">Icons</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="icon-feather.html">Feather<span class="pcoded-badge badge badge-danger">NEW</span></a></li>
+							<li><a href="icon-fontawsome.html">Font Awesome 5<span class="pcoded-badge badge badge-primary">1000+</span></a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-menu-caption">
+						<label>Forms</label>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Forms</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="form_elements.html">Form elements</a></li>
+							<li><a href="form-elements-advance.html">Form advance</a></li>
+							<li><a href="form-validation.html">Form validation</a></li>
+							<li><a href="form-masking.html">Form masking</a></li>
+							<li><a href="form-wizard.html">Form wizard</a></li>
+							<li><a href="form-picker.html">Form picker</a></li>
+							<li><a href="form-select.html">Form select</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-menu-caption">
+						<label>table</label>
+					 	</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Bootstrap table</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="tbl_bootstrap.html">Basic table</a></li>
+							<li><a href="tbl_sizing.html">Sizing table</a></li>
+							<li><a href="tbl_border.html">Border table</a></li>
+							<li><a href="tbl_styling.html">Styling table</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-package"></i></span><span class="pcoded-mtext">Data table</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="dt_basic.html">Basic initialization</a></li>
+							<li><a href="dt_advance.html">Advance initialization</a></li>
+							<li><a href="dt_styling.html">Styling</a></li>
+							<li><a href="dt_api.html">API</a></li>
+							<li><a href="dt_plugin.html">Plug-in</a></li>
+							<li><a href="dt_sources.html">Data sources</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-server"></i></span><span class="pcoded-mtext">DT extensions</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="dt_ext_autofill.html">Autofill</a></li>
+							<li class="nav-item pcoded-hasmenu">
+								<a href="#!" class="nav-link "><span class="pcoded-mtext">Button</span></a>
+								<ul class="pcoded-submenu">
+									<li><a href="dt_ext_basic_buttons.html">Basic button</a></li>
+									<li><a href="dt_ext_export_buttons.html">Data export</a></li>
+								</ul>
+							</li>
+							<li><a href="dt_ext_col_reorder.html">Col reorder</a></li>
+							<li><a href="dt_ext_fixed_columns.html">Fixed columns</a></li>
+							<li><a href="dt_ext_fixed_header.html">Fixed header</a></li>
+							<li><a href="dt_ext_key_table.html">Key table</a></li>
+							<li><a href="dt_ext_responsive.html">Responsive</a></li>
+							<li><a href="dt_ext_row_reorder.html">Row reorder</a></li>
+							<li><a href="dt_ext_scroller.html">Scroller</a></li>
+							<li><a href="dt_ext_select.html">Select table</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-menu-caption">
+						<label>Chart & Maps</label>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-pie-chart"></i></span><span class="pcoded-mtext">Chart</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="chart-apex.html">Apex Chart</a></li>
+							<li><a href="chart-chartjs.html">Chart js</a></li>
+							<li><a href="chart-highchart.html">Highchart</a></li>
+							<li><a href="chart-knob.html">Knob</a></li>
+							<li><a href="chart-peity.html">Peity</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-map"></i></span><span class="pcoded-mtext">Maps</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="map-google.html">Google</a></li>
+							<li><a href="map-api.html">Gmap search API</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-menu-caption">
+						<label>Pages</label>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-lock"></i></span><span class="pcoded-mtext">Authentication</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="auth-signup.html" target="_blank">Sign up</a></li>
+							<li><a href="auth-signup-img-side.html" target="_blank">Sign up v2 <span class="pcoded-badge badge badge-light-danger">NEW</span></a></li>
+							<li><a href="auth-signin.html" target="_blank">Sign in</a></li>
+							<li><a href="auth-signin-img-side.html" target="_blank">Sign in v2 <span class="pcoded-badge badge badge-light-danger">NEW</span></a></li>
+							<li><a href="auth-reset-password.html" target="_blank">Reset password</a></li>
+							<li><a href="auth-reset-password-img-side.html" target="_blank">Reset password v2 <span class="pcoded-badge badge badge-light-danger">NEW</span></a></li>
+							<li><a href="auth-change-password.html" target="_blank">Change password</a></li>
+							<li><a href="auth-change-password-img-side.html" target="_blank">Change password v2 <span class="pcoded-badge badge badge-light-danger">NEW</span></a></li>
+							<li><a href="auth-profile-settings.html" target="_blank">Profile settings</a></li>
+							<li><a href="auth-tabs.html" target="_blank">Tabs Authentication</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-sliders"></i></span><span class="pcoded-mtext">Maintenance</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="maint-error.html">Error</a></li>
+							<li><a href="maint-offline-ui.html" target="_blank">Offline UI</a></li>
+							<li><a href="maint-maintance.html" target="_blank">Maintenance</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-menu-caption">
+						<label>App</label>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-mail"></i></span><span class="pcoded-mtext">Email</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="email_inbox.html">Inbox</a></li>
+							<li><a href="email_read.html">Read mail</a></li>
+							<li><a href="email_compose.html">Compose mail</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-clipboard"></i></span><span class="pcoded-mtext">Task</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="task-list.html">List</a></li>
+							<li><a href="task-board.html">Board</a></li>
+							<li><a href="task-detail.html">Detail</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a href="todo.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-check-square"></i></span><span class="pcoded-mtext">To-Do</span></a>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-image"></i></span><span class="pcoded-mtext">Gallery</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="gallery-grid.html">Grid</a></li>
+							<li><a href="gallery-masonry.html">Masonry</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-menu-caption">
+						<label>Extension</label>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-plus"></i></span><span class="pcoded-mtext">Editor</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="editor-classic.html">CK editor</a></li>
+							<li><a href="editor-trumbowyg.html">Trumbowyg editor</a></li>
+						</ul>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-minus"></i></span><span class="pcoded-mtext">Invoice</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="invoice.html">Invoice</a></li>
+							<li><a href="invoice-summary.html">Invoice summary</a></li>
+							<li><a href="invoice-list.html">Invoice list</a></li>
+						</ul>
+					</li>
+					<li class="nav-item"><a href="full-calendar.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-calendar"></i></span><span class="pcoded-mtext">Full calendar</span></a></li>
+					<li class="nav-item"><a href="file-upload.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-upload-cloud"></i></span><span class="pcoded-mtext">File upload</span></a></li>
+					<li class="nav-item"><a href="image_crop.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-scissors"></i></span><span class="pcoded-mtext">Image cropper</span></a></li>
+					<li class="nav-item pcoded-menu-caption">
+						<label>Other</label>
+					</li>
+					<li class="nav-item pcoded-hasmenu">
+						<a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-menu"></i></span><span class="pcoded-mtext">Menu levels</span></a>
+						<ul class="pcoded-submenu">
+							<li><a href="#!">Menu Level 2.1</a></li>
+							<li class="pcoded-hasmenu">
+								<a href="#!">Menu level 2.2</a>
+								<ul class="pcoded-submenu">
+									<li><a href="#!">Menu level 3.1</a></li>
+									<li class="pcoded-hasmenu">
+										<a href="#!">Menu level 3.2</a>
+										<ul class="pcoded-submenu">
+											<li><a href="#!">Menu level 4.1</a></li>
+											<li><a href="#!">Menu level 4.2</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-item disabled"><a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-power"></i></span><span class="pcoded-mtext">Disabled menu</span></a></li>
+					<li class="nav-item"><a href="sample-page.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-sidebar"></i></span><span class="pcoded-mtext">Sample page</span></a></li>
 
-<body>
-    <!-- [ Navbar ] Start -->
-    <nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
-        <div class="container">
-            <a class="navbar-brand " href="#main"><img src="assets/images/logo.png" alt="adminity Logo" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="nav">
-                <ul class="navbar-nav mr-auto">
-                </ul>
-                <ul class="navbar-nav my-2 my-lg-0" id="navlist">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#main">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#features">Why able pro?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#demos">Demo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#support"  target="_blank">Support</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="7.0/index.html" target="_blank">V7.0 Old Version</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#products">Related Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://1.envato.market/c/1289604/275988/4415?subId1=phoenixcoded&amp;u=https%3A%2F%2Fthemeforest.net%2Fitem%2Fable-pro-responsive-bootstrap-4-admin-template%2F19300403" target="_blank" class="nav-link btn btn-success">Buy Now</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- [ Navbar ] end -->
+				</ul>
+				
+				<div class="card text-center">
+					<div class="card-block">
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+						<i class="feather icon-sunset f-40"></i>
+						<h6 class="mt-3">Help?</h6>
+						<p>Please contact us on our email for need any support</p>
+						<a href="#!" target="_blank" class="btn btn-primary btn-sm text-white m-0">Support</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</nav>
+	<!-- [ navigation menu ] end -->
+	<!-- [ Header ] start -->
+	<header class="navbar pcoded-header navbar-expand-lg navbar-light header-blue">
+		
+			
+				<div class="m-header">
+					<a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
+					<a href="#!" class="b-brand">
+						<!-- ========   change your logo hear   ============ -->
+						<img src="assets/images/logo.png" alt="" class="logo">
+						
+					</a>
+					<a href="#!" class="mob-toggler">
+						<i class="feather icon-more-vertical"></i>
+					</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a href="#!" class="pop-search"><i class="feather icon-search"></i></a>
+							<div class="search-bar">
+								<input type="text" class="form-control border-0 shadow-none" placeholder="Search hear">
+								<button type="button" class="close" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</li>
+					</ul>
+					<ul class="navbar-nav ml-auto">
+						<li>
+							<div class="dropdown">
+								<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="icon feather icon-bell"></i></a>
+								<div class="dropdown-menu dropdown-menu-right notification">
+									<div class="noti-head">
+										<h6 class="d-inline-block m-b-0">Notifications</h6>
+										<div class="float-right">
+											<a href="#!" class="m-r-10">mark as read</a>
+											<a href="#!">clear all</a>
+										</div>
+									</div>
+									<ul class="noti-body">
+										<li class="n-title">
+											<p class="m-b-0">NEW</p>
+										</li>
+										<li class="notification">
+											<div class="media">
+												<img class="img-radius" src="assets/images/user/avatar-1.jpg" alt="Generic placeholder image">
+												<div class="media-body">
+													<p><strong>John Doe</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>5 min</span></p>
+													<p>New ticket Added</p>
+												</div>
+											</div>
+										</li>
+										<li class="n-title">
+											<p class="m-b-0">EARLIER</p>
+										</li>
+										<li class="notification">
+											<div class="media">
+												<img class="img-radius" src="assets/images/user/avatar-2.jpg" alt="Generic placeholder image">
+												<div class="media-body">
+													<p><strong>Joseph William</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>10 min</span></p>
+													<p>Prchace New Theme and make payment</p>
+												</div>
+											</div>
+										</li>
+										<li class="notification">
+											<div class="media">
+												<img class="img-radius" src="assets/images/user/avatar-1.jpg" alt="Generic placeholder image">
+												<div class="media-body">
+													<p><strong>Sara Soudein</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>12 min</span></p>
+													<p>currently login</p>
+												</div>
+											</div>
+										</li>
+										<li class="notification">
+											<div class="media">
+												<img class="img-radius" src="assets/images/user/avatar-2.jpg" alt="Generic placeholder image">
+												<div class="media-body">
+													<p><strong>Joseph William</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
+													<p>Prchace New Theme and make payment</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<div class="noti-footer">
+										<a href="#!">show all</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="dropdown drp-user">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="feather icon-user"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-right profile-notification">
+									<div class="pro-head">
+										<img src="assets/images/user/avatar-1.jpg" class="img-radius" alt="User-Profile-Image">
+										<span>John Doe</span>
+										<a href="auth-signin.html" class="dud-logout" title="Logout">
+											<i class="feather icon-log-out"></i>
+										</a>
+									</div>
+									<ul class="pro-body">
+										<li><a href="user-profile.html" class="dropdown-item"><i class="feather icon-user"></i> Profile</a></li>
+										<li><a href="email_inbox.html" class="dropdown-item"><i class="feather icon-mail"></i> My Messages</a></li>
+										<li><a href="auth-signin.html" class="dropdown-item"><i class="feather icon-lock"></i> Lock Screen</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+			
+	</header>
+	<!-- [ Header ] end -->
+	
+	
 
-    <!-- [ Header ] Start -->
-    <header id="main" class="header">
-        <div class="container">
-            <div class="row mb-4 d-flex align-items-center">
-                <div class="col-lg-4">
-                    <span class="ml-3">Made using Bootstrap Framework</span>
-                    <h1 class="text-white">Able Pro 8.0</h1>
-                    <p class="mt-3 mb-4">All Time Best Rated Bootstrap Admin Template #1 Best Rated Admin Template out of 600+ Template on Themeforest</p>
-                    <a href="#demos" class="btn btn-danger mr-3">Live Demo</a>
-                    <a href="https://1.envato.market/c/1289604/275988/4415?subId1=phoenixcoded&amp;u=https%3A%2F%2Fthemeforest.net%2Fitem%2Fable-pro-responsive-bootstrap-4-admin-template%2F19300403" target="_blank" class="btn btn-success">Buy Now</a>
-                </div>
-                <div class="col-lg-8 text-right">
-                    <div class="video-moke">
-                        <img src="assets/images/header/moke.png" alt="" class="img-fluid">
-                        <div class="video embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/oD-lmrfPECA?autoplay=0&amp;loop=5"></iframe>
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+    <div class="pcoded-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+            <div class="page-block">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="page-header-title">
+                            <h5 class="m-b-10">Dashboard Analytics</h5>
                         </div>
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
+                            <li class="breadcrumb-item"><a href="#!">Dashboard Analytics</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="r-w-block">
-            <div class="r-w"></div>
-            <div class="r-w"></div>
-        </div>
-    </header>
-    <!-- [ Header ] End -->
-    <!-- [ features ] Start -->
-    <section id="features" class="features">
-        <div class="container">
-            <div class="row text-center feature-border">
-                <div class="col-sm-3">
-                    <div class="bg-featured__Items m-auto"></div>
-                    <h3 class="mt-4">Featured Items</h3>
-                </div>
-                <div class="col-sm-3">
-                    <div class="bg-featured___Author m-auto"></div>
-                    <h3 class="mt-4">Featured Author</h3>
-                </div>
-                <div class="col-sm-3">
-                    <div class="bg-featured_Trend m-auto"></div>
-                    <h3 class="mt-4">Trending Item</h3>
-                </div>
-                <div class="col-sm-3">
-                    <div class="bg-featured_rate m-auto"></div>
-                    <h3 class="mt-4">Top Rated</h3>
-                </div>
-            </div>
-        </div>
-        <div class="container title">
-            <h2><span>Why</span> Ablepro?</h2>
-            <div class="bg-text">Able Pro?</div>
-            <div class="row  justify-content-center">
-                <div class="col-md-6">
-                    <p class="mb-0">8+ Admin Panels included with full RTL support too</p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-xl-4 col-md-6">
-                    <div class="feature-block">
-                        <div class="bg-able_profits m-auto"></div>
-                        <h4 class="mb-3 mt-4">Dashboard of 2019</h4>
-                        <p>Latest, trending new design makes Able Pro a unique Bootstrap admin template for 2018. Use new ideas to make complete dashboard template work with any type of project needs.</p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="feature-block">
-                        <div class="bg-able_vector m-auto"></div>
-                        <h4 class="mb-3 mt-4">Made for perfomance</h4>
-                        <p>Speed, Easy to customize, Flexible to use are 3 top most key factors for any Admin Template. We are happy to say that Able Pro achieves those performance factors. Not said by us “i.e. our customer’s words”.</p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="feature-block">
-                        <div class="bg-able_website m-auto"></div>
-                        <h4 class="mb-3 mt-4">Error-free code</h4>
-                        <p>Error Prohibited!! Yes, we care your project with the complete testing of design & performance in all major modern devices, which makes Able Pro a standard Admin Dashboard template all time.</p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="feature-block">
-                        <div class="bg-able_marketer m-auto"></div>
-                        <h4 class="mb-3 mt-4">On time Support</h4>
-                        <p>Problem? Write to us – using <a href="https://phoenixcoded.ticksy.com/" target="_blank"> our support desk.</a> 99% query resolution in first response within 1 day of time. 70% first response within 30mins. 95% users are
-                            satisfied with support quality & response time.</p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="feature-block">
-                        <div class="bg-able_download m-auto"></div>
-                        <h4 class="mb-3 mt-4">Always updated</h4>
-                        <p>Plug-ins update available? No worries, we always update our package timeply with latest Plug-ins/technology & get update notification on Email with Detailed changelogs, version history from our item page.</p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="feature-block">
-                        <div class="bg-able_manage m-auto"></div>
-                        <h4 class="mb-3 mt-4">Effective Documentation</h4>
-                        <p>Online Separate help documentation for both Bootstrap HTML & Angular version. We frequently made updates on our documentation for your less stress & hassle free development.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- [ features ] Ends -->
-
-    <!-- [ demos ] Start -->
-    <section id="demos" class="demos theme-alt-bg">
-        <div class="container title">
-            <h2><span>Explore</span> Demos</h2>
-            <div class="bg-text">Demos</div>
-            <div class="row  justify-content-center">
-                <div class="col-md-6">
-                    <p class="mb-0">Quick start skeleton version included in package</p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-				<!-- 1.Vertical -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="layouts-block">
-                        <img src="assets/images/demo/layout-default.jpg" alt="layout image" class="img-fluid">
-                        <div class="hover-data">
-                            <a href="bootstrap/default/index.html" class="btn btn-sm btn-primary mr-1" target="_blank">HTML</a>
-                            <a href="angular/default/index.html" class="btn btn-sm btn-danger mr-1" target="_blank">Angular</a>
-    						<a href="react/default/index.html" class="btn btn-sm btn-info" target="_blank">React</a>
-                        </div>
-                    </div>
-                    <p class="mb-1 mt-2"><small>Default</small></p>
-                    <h5 class="">Vertical Layout</h5>
-                </div>
-				<!-- 2.Horizontal -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="layouts-block">
-                        <img src="assets/images/demo/horizontal.jpg" alt="layout image" class="img-fluid">
-                        <div class="hover-data">
-                            <a href="bootstrap/default/layout-horizontal.html" class="btn btn-sm btn-primary mr-1" target="_blank">HTML</a>
-                            <a href="angular/default/layout/horizontal.html" class="btn btn-sm btn-danger mr-1" target="_blank">Angular</a>
-    						<a href="react/default/layout/horizontal.html" class="btn btn-sm btn-info" target="_blank">React</a>
-                        </div>
-                    </div>
-                    <p class="mb-1 mt-2"><small>Horizontal</small></p>
-                    <h5 class="">Horizontal Layout</h5>
-                </div>
-				<!-- 3.RTL -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="layouts-block">
-                        <img src="assets/images/demo/layout-rtl.jpg" alt="layout image" class="img-fluid">
-                        <div class="hover-data">
-                            <a href="bootstrap/default/layout-rtl.html" class="btn btn-sm btn-primary mr-1" target="_blank">HTML</a>
-                            <a href="angular/default/layout/vertical-rtl.html" class="btn btn-sm btn-danger mr-1" target="_blank">Angular</a>
-    						<a href="react/default/layout/v-rtl.html" class="btn btn-sm btn-info" target="_blank">React</a>
-                        </div>
-                    </div>
-                    <p class="mb-1 mt-2"><small>Right to Left full support</small></p>
-                    <h5 class="">RTL Layout</h5>
-                </div>
-				<!-- 3.Dark -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="layouts-block">
-                        <img src="assets/images/demo/layout-dark.jpg" alt="layout image" class="img-fluid">
-                        <div class="hover-data">
-                            <a href="bootstrap/default/layout-dark.html" class="btn btn-sm btn-primary mr-1" target="_blank">HTML</a>
-                            <a href="angular/default/layout/dark.html" class="btn btn-sm btn-danger mr-1" target="_blank">Angular</a>
-    						<a href="react/default/layout/dark.html" class="btn btn-sm btn-info" target="_blank">React</a>
-                        </div>
-                    </div>
-                    <p class="mb-1 mt-2"><small>Dark Version</small></p>
-                    <h5 class="">Dark Layout</h5>
-                </div>
-				<!-- 5.Horizontal RTL -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="layouts-block">
-                        <img src="assets/images/demo/layout-horizontal-rtl.jpg" alt="layout image" class="img-fluid">
-                        <div class="hover-data">
-                            <a href="bootstrap/default/layout-horizontal-rtl.html" class="btn btn-sm btn-primary mr-1" target="_blank">HTML</a>
-                            <a href="angular/default/layout/horizontal-rtl.html" class="btn btn-sm btn-danger mr-1" target="_blank">Angular</a>
-    						<a href="react/default/layout/horizontal-rtl.html" class="btn btn-sm btn-info" target="_blank">React</a>
-                        </div>
-                    </div>
-                    <p class="mb-1 mt-2"><small>Horizontal Right to Left - full support</small></p>
-                    <h5 class="">Horizontal Layout</h5>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- [ demos ] end -->
-
-    <!-- [ Pages ] Start -->
-    <section class="pages">
-        <div class="container title">
-            <h2><span>Different</span> Pages</h2>
-            <div class="bg-text">Pages</div>
-            <div class="row  justify-content-center">
-                <div class="col-md-6">
-                    <p class="mb-0">Able Pro admin contains most commonly used pages to develop any applications dashboard which will ease the developer's efforts.</p>
-                </div>
-            </div>
-        </div>
-        <div class="page-block">
-            <div id="page-slider" class="owl-carousel page-slider">
-                <div class="item">
-                    <div class="page-block">
-                        <img src="assets/images/pages/img-page-1.jpg" alt="" class="img-fluid">
-                        <div class="hover-block">
-                            <a href="bootstrap/default/auth-signup-img-side.html" target="_blank" class="btn btn-primary">Authentication</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="page-block">
-                        <img src="assets/images/pages/img-page-2.jpg" alt="" class="img-fluid">
-                        <div class="hover-block">
-                            <a href="bootstrap/default/maint-offline-ui.html" target="_blank" class="btn btn-primary">Offline</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="page-block">
-                        <img src="assets/images/pages/img-page-3.jpg" alt="" class="img-fluid">
-                        <div class="hover-block">
-                            <a href="bootstrap/default/task-board.html" target="_blank" class="btn btn-primary">Task</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="page-block">
-                        <img src="assets/images/pages/img-page-4.jpg" alt="" class="img-fluid">
-                        <div class="hover-block">
-                            <a href="bootstrap/default/email_inbox.html" target="_blank" class="btn btn-primary">Email</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- [ Pages ] end -->
-
-    <!-- [ application ] Start -->
-    <section class="application theme-alt-bg">
-        <div class="container title">
-            <h2><span>Useful</span> Applications</h2>
-            <div class="bg-text">Application</div>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <p class="mb-0">Able pro admin template comes with very useful applications like chat, taskboard, calendar and more.</p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane show active" id="pills-social" role="tabpanel" aria-labelledby="pills-social-tab">
-                            <a href="bootstrap/default/hospital-dashboard.html" target="_blank"><img src="assets/images/application/img-app-1.jpg" alt="fb-wall" class="img-fluid"></a>
-                        </div>
-                        <div class="tab-pane" id="pills-Task" role="tabpanel" aria-labelledby="pills-Task-tab">
-                            <a href="bootstrap/default/project-dashboard.html" target="_blank"><img src="assets/images/application/img-app-2.jpg" alt="task-detail" class="img-fluid"></a>
-                        </div>
-                        <div class="tab-pane" id="pills-Todo" role="tabpanel" aria-labelledby="pills-Todo-tab">
-                            <a href="bootstrap/default/member-membership.html" target="_blank"><img src="assets/images/application/img-app-3.jpg" alt="todo" class="img-fluid"></a>
-                        </div>
-                        <div class="tab-pane" id="pills-gallery" role="tabpanel" aria-labelledby="pills-gallery-tab">
-                            <a href="bootstrap/default/help-dashboard.html" target="_blank"><img src="assets/images/application/img-app-4.jpg" alt="gallery-advance" class="img-fluid"></a>
-                        </div>
-                        <div class="tab-pane" id="pills-search" role="tabpanel" aria-labelledby="pills-search-tab">
-                            <a href="bootstrap/default/school-dashboard.html" target="_blank"><img src="assets/images/application/img-app-5.jpg" alt="search-result" class="img-fluid"></a>
-                        </div>
-                        <div class="tab-pane" id="pills-Job" role="tabpanel" aria-labelledby="pills-Job-tab">
-                            <a href="bootstrap/default/crypto-dashboard.html" target="_blank"><img src="assets/images/application/img-app-6.jpg" alt="job-find" class="img-fluid"></a>
-                        </div>
-                        <div class="tab-pane" id="pills-Job1" role="tabpanel" aria-labelledby="pills-Job-tab1">
-                            <a href="bootstrap/default/ecom-product-details.html" target="_blank"><img src="assets/images/application/img-app-7.jpg" alt="job-find" class="img-fluid"></a>
-                        </div>
-                    </div>
-                    <ul class="nav nav-pills nav-fill mt-5" id="pills-tab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="pills-social-tab" data-toggle="pill" href="#pills-social" role="tab" aria-controls="pills-social" aria-selected="true">Hospital</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="pills-Task-tab" data-toggle="pill" href="#pills-Task" role="tab" aria-controls="pills-Task" aria-selected="false">Project & CRM</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="pills-Todo-tab" data-toggle="pill" href="#pills-Todo" role="tab" aria-controls="pills-Todo" aria-selected="false">Membership</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="pills-gallery-tab" data-toggle="pill" href="#pills-gallery" role="tab" aria-controls="pills-gallery" aria-selected="false">Helpdesk</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="pills-search-tab" data-toggle="pill" href="#pills-search" role="tab" aria-controls="pills-search" aria-selected="false">School</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="pills-Job-tab" data-toggle="pill" href="#pills-Job" role="tab" aria-controls="pills-Job" aria-selected="false">Crypto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="pills-Job-tab1" data-toggle="pill" href="#pills-Job1" role="tab" aria-controls="pills-Job1" aria-selected="false">E-Commerce</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- [ application ] end -->
-
-    <!-- [ Widget ] Start -->
-    <section class="widget">
-        <div class="container title">
-            <h2><span>Advance</span> Widget</h2>
-            <div class="bg-text">Widget</div>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <p class="mb-0">Able pro admin template comes with very useful applications like chat, taskboard, calendar and more.</p>
-                </div>
-            </div>
-        </div>
-        <div class="widget-scroll"></div>
-    </section>
-    <!-- [ Widget ] end -->
-
-    <!-- [ Customizer ] Start -->
-    <section class="customizer theme-alt-bg">
-        <div class="container title">
-            <h2><span>Live</span> Customizer</h2>
-            <div class="bg-text">Customizer</div>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <p class="mb-0">Make your own layout with tons of options through Live Customizer.</p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-md-5">
-                    <div class="cust-block d-flex align-items-center">
-                        <div><span class="num">01</span></div>
-                        <div>
-                            <h3 class="mb-3">Live Customizer</h3>
-                            <p class="mb-0">Make your own layout with tons of options through Live Customizer.</p>
-                        </div>
-                    </div>
-                    <div class="cust-block d-flex align-items-center">
-                        <div><span class="num">02</span></div>
-                        <div>
-                            <h3 class="mb-3">Export it</h3>
-                            <p class="mb-0">Click on Export button. Provide valid licence key. That's it..</p>
-                        </div>
-                    </div>
-                    <div class="cust-block d-flex align-items-center mb-0">
-                        <div><span class="num">03</span></div>
-                        <div>
-                            <h3 class="mb-3">Use it</h3>
-                            <p class="mb-0">Use the page directly into your project without any further effort..</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-7">
-                    <img src="assets/images/Customizer.gif" alt="image-app" class="img-fluid lc-img">
-                </div>
-                </div>
-            </div>
-    </section>
-    <!-- [ Customizer ] end -->
-
-    <!-- [ Component ] Start -->
-    <section class="component">
-        <div class="container title">
-            <h2><span>Helpful</span> Components</h2>
-            <div class="bg-text">Component</div>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <p class="mb-0">Ready to use different types of components.</p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="comp-block">
-                        <div class="bg-help_table  m-auto"></div>
-                        <div class="bg-h_table  m-auto h-img"></div>
-                        <span class="mt-3 comp-title d-block">Data Table</span>
-                    </div>
-                    <div class="comp-block">
-                        <div class="bg-help_map  m-auto"></div>
-                        <div class="bg-h_map  m-auto h-img"></div>
-                        <span class="mt-3 comp-title d-block">Maps</span>
-                    </div>
-                    <div class="comp-block">
-                        <div class="bg-help_download  m-auto"></div>
-                        <div class="bg-h_download  m-auto h-img"></div>
-                        <span class="mt-3 comp-title d-block">Downloads</span>
-                    </div>
-                    <div class="comp-block">
-                        <div class="bg-help_rating  m-auto"></div>
-                        <div class="bg-h_star  m-auto h-img"></div>
-                        <span class="mt-3 comp-title d-block">Rating</span>
-                    </div>
-                    <div class="comp-block">
-                        <div class="bg-help_chart  m-auto"></div>
-                        <div class="bg-h_chart  m-auto h-img"></div>
-                        <span class="mt-3 comp-title d-block">Charts</span>
-                    </div>
-                    <div class="comp-block">
-                        <div class="bg-help_alert  m-auto"></div>
-                        <div class="bg-h_alert  m-auto h-img"></div>
-                        <span class="mt-3 comp-title d-block">Alerts</span>
-                    </div>
-                    <div class="comp-block">
-                        <div class="bg-help_editer  m-auto"></div>
-                        <div class="bg-h_editor  m-auto h-img"></div>
-                        <span class="mt-3 comp-title d-block">Editors</span>
-                    </div>
-                    <div class="comp-block">
-                        <div class="bg-help_icon  m-auto"></div>
-                        <div class="bg-h_icon  m-auto h-img"></div>
-                        <span class="mt-3 comp-title d-block">Icons</span>
-                    </div>
-                    <div class="comp-block">
-                        <div class="bg-help_badge  m-auto"></div>
-                        <div class="bg-h_badge  m-auto h-img"></div>
-                        <span class="mt-3 comp-title d-block">Badges</span>
-                    </div>
-                    <div class="comp-block">
-                        <div class="bg-help_process  m-auto"></div>
-                        <div class="bg-h_search1  m-auto h-img"></div>
-                        <span class="mt-3 comp-title d-block">Progress</span>
-                    </div>
-                    <div class="comp-block">
-                        <div class="bg-help_upload  m-auto"></div>
-                        <div class="bg-h_upload  m-auto h-img"></div>
-                        <span class="mt-3 comp-title d-block">File Upload</span>
-                    </div>
-                    <div class="comp-block">
-                        <div class="bg-help_tool  m-auto"></div>
-                        <div class="bg-h_tool  m-auto h-img"></div>
-                        <span class="mt-3 comp-title d-block">Typography</span>
-                    </div>
-                    <div class="comp-block">
-                        <div class="bg-help_calendar  m-auto"></div>
-                        <div class="bg-h_calendar  m-auto h-img"></div>
-                        <span class="mt-3 comp-title d-block">Calenders</span>
-                    </div>
-                    <div class="comp-block">
-                        <div class="bg-help_tap  m-auto"></div>
-                        <div class="bg-h_tab  m-auto h-img"></div>
-                        <span class="mt-3 comp-title d-block">Tabs & Pills</span>
-                    </div>
-                    <div class="comp-block">
-                        <div class="bg-help_search  m-auto"></div>
-                        <div class="bg-h_modal m-auto h-img"></div>
-                        <span class="mt-3 comp-title d-block">Search</span>
-                    </div>
-                    <div class="comp-block">
-                        <div class="bg-help_modal  m-auto"></div>
-                        <div class="bg-h_progress  m-auto h-img"></div>
-                        <span class="mt-3 comp-title d-block">Modals</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- [ Component ] end -->
-
-    <!-- [ call to action ] Start -->
-    <div class="c-a-wave-block">
-        <img src="assets/images/wave2.png" alt="" class="img-fluid"/>
-    </div>
-        <section class="c-action">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="c-a-icon">
-                            <div class="bg-review_star"></div>
-                        </div>
-                        <h2 class="mt-2">50+</h2>
-                        <span class="mb-0 c-a-cont">5* Ratings & Reviews</span>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="c-a-icon">
-                            <div class="bg-review_customer"></div>
-                        </div>
-                        <h2 class="mt-2">1.5k+</h2>
-                        <span class="mb-0 c-a-cont">Happy Customers</span>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="c-a-icon">
-                            <div class="bg-review_code"></div>
-                        </div>
-                        <h2 class="mt-2">3k+</h2>
-                        <span class="mb-0 c-a-cont">Hours of codes</span>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="c-a-icon">
-                            <div class="bg-review_member"></div>
-                        </div>
-                        <h2 class="mt-2">10+</h2>
-                        <span class="mb-0 c-a-cont">Team Members</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- [ call to action ] end -->
-
-        <!-- [ Key Features ] Start -->
-        <section class="k-features theme-alt-bg">
-            <div class="container title">
-                <h2><span>Key</span> Features</h2>
-                <div class="bg-text">Features</div>
-                <div class="row justify-content-center">
-                    <div class="col-md-6">
-                        <p class="mb-0">Below are key features of Able Pro Bootstrap admin template with detail description.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
+        <!-- [ breadcrumb ] end -->
+        <!-- [ Main Content ] start -->
+        <div class="row">
+            <div class="col-lg-7 col-md-12">
+                <!-- support-section start -->
                 <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="k-f-block">
-                            <div class="bg-key_ui m-auto"></div>
-                            <span class="k-f-title">1000+ UI Elements</span>
-                            <div class="h-data">
-                                <P class="mb-0">We've cover everything in terms of UI elements in Able Pro</P>
+                    <div class="col-sm-6">
+                        <div class="card support-bar overflow-hidden">
+                            <div class="card-body pb-0">
+                                <h2 class="m-0">350</h2>
+                                <span class="text-c-blue">Support Requests</span>
+                                <p class="mb-3 mt-3">Total number of support requests that come in.</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="k-f-block">
-                            <div class="bg-key_form m-auto"></div>
-                            <span class="k-f-title">500+ Form Elements</span>
-                            <div class="h-data">
-                                <P class="mb-0">Buttons, Dropdowns, Icons, Accordion etc...</P>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="k-f-block">
-                            <div class="bg-key_marketing m-auto"></div>
-                            <span class="k-f-title">200+ Pages</span>
-                            <div class="h-data">
-                                <P class="mb-0">Dashboards, Auth, Maintenance,Font Icons, Apps Pages included.</P>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="k-f-block">
-                            <div class="bg-key_contract_ m-auto"></div>
-                            <span class="k-f-title">200+ Plugins</span>
-                            <div class="h-data">
-                                <P class="mb-0">3'rd Party plugins is well integrated your development time.</P>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="k-f-block">
-                            <div class="bg-key_widget m-auto"></div>
-                            <span class="k-f-title">150+ Widgets</span>
-                            <div class="h-data">
-                                <P class="mb-0">Ready to use widgets designed for your project needs.</P>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="k-f-block">
-                            <div class="bg-key_chart m-auto"></div>
-                            <span class="k-f-title">70+ Charts</span>
-                            <div class="h-data">
-                                <P class="mb-0">amChart, D3, eCharts, Google charts, Float, Morris, nvd3, peity, rickshaw, sparkline and many more...</P>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="k-f-block">
-                            <div class="bg-key_layout m-auto"></div>
-                            <span class="k-f-title">25+ Page Layouts</span>
-                            <div class="h-data">
-                                <P class="mb-0">Vertical, Horizontal, Boxed, Fixed & tons of menu options.</P>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="k-f-block">
-                            <div class="bg-key_analytics m-auto"></div>
-                            <span class="k-f-title">5+ Applications</span>
-                            <div class="h-data">
-                                <P class="mb-0">Social, Task, To-do, Gallery, Search Application pages.</P>
-                            </div>
-                        </div>
-                    </div>
-                    <!--<div class="col-lg-3 col-md-6">
-                        <div class="k-f-block">
-                            <div class="bg-key_web m-auto"></div>
-                            <span class="k-f-title">Web Devlopment</span>
-                            <div class="h-data">
-                                <P class="mb-0">Each pages have ready to use components.</P>
-                            </div>
-                        </div>
-                    </div>-->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="k-f-block">
-                            <div class="bg-key_landing m-auto"></div>
-                            <span class="k-f-title">Landing Page</span>
-                            <div class="h-data">
-                                <P class="mb-0">Enhance your website with integrated bonus Front end Landing Page design.</P>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="k-f-block">
-                            <div class="bg-key_browser m-auto"></div>
-                            <span class="k-f-title">Responsive Design</span>
-                            <div class="h-data">
-                                <P class="mb-0">Able pro adapt in evry devices without matter of its resolution.</P>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="k-f-block">
-                            <div class="bg-key_project m-auto"></div>
-                            <span class="k-f-title">Detail Documentation</span>
-                            <div class="h-data">
-                                <P class="mb-0">Separate documentation for Angular and HTML version.</P>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="k-f-block">
-                            <div class="bg-key_update m-auto"></div>
-                            <span class="k-f-title">Lifetime Updates</span>
-                            <div class="h-data">
-                                <P class="mb-0">We guaranteed gives you live time upto date package.</P>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="k-f-block">
-                            <div class="bg-key_speed m-auto"></div>
-                            <span class="k-f-title">Speed Performance</span>
-                            <div class="h-data">
-                                <P class="mb-0">We carefully optimised Able pro for GTMetrix, Pingdom, W3 passed scores.</P>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="k-f-block">
-                            <div class="bg-key_support m-auto"></div>
-                            <span class="k-f-title">5 star Support</span>
-                            <div class="h-data">
-                                <P class="mb-0">Best rated Ticksy support across whole marketplace.</P>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="k-f-block">
-                            <div class="bg-key_strategy m-auto"></div>
-                            <span class="k-f-title"> Vast App Extension</span>
-                            <div class="h-data">
-                                <P class="mb-0">Ready to integrate Extensions - Apps for your different purpose usage in project.</P>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- [ Key Features ] end -->
-
-        <!-- [ community-badges ] Start -->
-        <section class="theme-bg feal-block">
-            <div class="container">
-                <div class="row text-center align-items-center">
-                    <div class="col-sm-12 text-center">
-                        <h4 class="mb-4 text-white feal-title">Feeling Satisfied ?</h4>
-                        <p class="text-white mb-4">This should be used to make your project thats way you need to click buy now button.</p>
-                        <a href="https://1.envato.market/c/1289604/275988/4415?subId1=phoenixcoded&amp;u=https%3A%2F%2Fthemeforest.net%2Fitem%2Fable-pro-responsive-bootstrap-4-admin-template%2F19300403" target="_blank" class="nav-link btn btn-success" style="width:150px;margin:0 auto;">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- [ community-badges ] end -->
-
-        <!-- [ Documentation ] Start -->
-        <section class="doc">
-            <div class="container title">
-                <h2><span>Documentation +</span> Videos</h2>
-                <div class="bg-text">Document</div>
-                <div class="row justify-content-center">
-                    <div class="col-md-6">
-                        <p class="mb-0">More videos comming soon</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row d-flex align-items-center">
-                    <div class="col-md-3">
-                        <div class="doc-block">
-                            <img src="assets/images/application/img-app-1.jpg" alt="" class="img-fluid">
-                            <div class="doc-hov">
-                                <a href="https://www.youtube.com/watch?v=oD-lmrfPECA" class="text-white video-play"><div class="bg-play m-auto"></div></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="doc-block">
-                            <img src="assets/images/application/img-app-1.jpg" alt="" class="img-fluid comming">
-                            <div class="doc-hov">
-                                <a href="#!" class="text-center"><h2 class="text-white mb-0">+</h2><h5 class="text-white mb-0 mt-2">Comming Soon...</h5></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <img src="assets/images/document/Online-Document.png" alt="online-document" class="img-fluid doc-img">
-    </section>
-            <!-- [ Documentation ] end -->
-
-            <!-- [ Technology ] Start -->
-            <section class="technology theme-alt-bg">
-                <div class="container title">
-                    <h2><span>We</span> Use</h2>
-                    <div class="bg-text">Technology</div>
-                    <div class="row justify-content-center">
-                        <div class="col-md-6">
-                            <p class="mb-0">Below are technology which are use in Able Pro Bootstrap admin template with detail description.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-4">
-                            <div class="tech-block">
-                                <div class="bg-bootstrap m-auto"></div>
-                                <h3 class="mb-4 mt-3">Bootstrap 4</h3>
-                                <p class="mb-0">Bootstrap is the most popular HTML, CSS, and JS framework in the world for building responsive, mobile-first projects on the web.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="tech-block">
-                                <div class="bg-angular m-auto"></div>
-                                <h3 class="mb-4 mt-3">Angular 8+</h3>
-                                <p class="mb-0">Build applications and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="tech-block">
-                                <div class="bg-sass m-auto"></div>
-                                <h3 class="mb-4 mt-3">Saas</h3>
-                                <p class="mb-0">Saas is the most popular HTML, CSS, and JS framework in the world for building responsive, mobile-first projects on the web.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- [ Technology ] end -->
-
-            <!-- [ Reviews ] Start -->
-            <section class="reviews">
-                <div class="container title">
-                    <h2><span>Genuine</span> Reviews</h2>
-                    <div class="bg-text">Reviews</div>
-                    <div class="row justify-content-center">
-                        <div class="col-md-6">
-                            <p class="mb-0">See why we are #1 out of 600+ admin themes</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-sm-10">
-                            <div class="comt-block main">
-                                <div class="row">
+                            <div id="support-chart"></div>
+                            <div class="card-footer bg-primary text-white">
+                                <div class="row text-center">
                                     <div class="col">
-                                        <div class="bg-quote"></div>
+                                        <h4 class="m-0 text-white">10</h4>
+                                        <span>Open</span>
                                     </div>
                                     <div class="col">
-                                        <div class="bg-star_5 float-right"></div>
+                                        <h4 class="m-0 text-white">5</h4>
+                                        <span>Running</span>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="m-0 text-white">3</h4>
+                                        <span>Solved</span>
                                     </div>
                                 </div>
-                                <p class="mb-3">“ I really appreciate the effort you guys have put into making things so organized and smart. your theme is awesome! ”</p>
-                                <h5 class="text-theme text-right mb-0"><span>- TJ </span>(3 licence purchased)</h5>
                             </div>
                         </div>
-                        <div class="col-sm-12">
-                            <div id="reviews-slider" class="owl-carousel page-slider">
-                                <div class="item">
-                                    <div class="comt-block">
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="bg-star_5"></div>
-                                            </div>
-                                            <div class="col">
-                                                <h6 class="mb-0 text-right">7 days ago...</h6>
-                                            </div>
-                                        </div>
-                                        <p class="mb-3 mt-2">Really <span>Good Admin</span>, It completely servs my need and what i want for my project. No exceptions using CodedThemes product. Thump us !!!</p>
-                                        <h6 class="mb-3">Momennoor, Egypt</h6>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card support-bar overflow-hidden">
+                            <div class="card-body pb-0">
+                                <h2 class="m-0">350</h2>
+                                <span class="text-c-green">Support Requests</span>
+                                <p class="mb-3 mt-3">Total number of support requests that come in.</p>
+                            </div>
+                            <div id="support-chart1"></div>
+                            <div class="card-footer bg-success text-white">
+                                <div class="row text-center">
+                                    <div class="col">
+                                        <h4 class="m-0 text-white">10</h4>
+                                        <span>Open</span>
                                     </div>
-                                </div>
-                                <div class="item">
-                                    <div class="comt-block">
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="bg-star_5"></div>
-                                            </div>
-                                            <div class="col">
-                                                <h6 class="mb-0 text-right">2 days ago...</h6>
-                                            </div>
-                                        </div>
-                                        <p class="mb-3 mt-2"><span>An excellent theme</span>. It contains everything you need to open complex projects. Incredible development and even better support!</p>
-                                        <h6 class="mb-3">Vihtora, Ukraine</h6>
+                                    <div class="col">
+                                        <h4 class="m-0 text-white">5</h4>
+                                        <span>Running</span>
                                     </div>
-                                </div>
-                                <div class="item">
-                                    <div class="comt-block">
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="bg-star_5"></div>
-                                            </div>
-                                            <div class="col">
-                                                <h6 class="mb-0 text-right">2 days ago...</h6>
-                                            </div>
-                                        </div>
-                                        <p class="mb-3 mt-2"><span>Excellent template</span>. Very complete - the design is very cool and the quality of code is excellent. Compliments</p>
-                                        <h6 class="mb-3">Ab69aho, Italy</h6>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="comt-block">
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="bg-star_5"></div>
-                                            </div>
-                                            <div class="col">
-                                                <h6 class="mb-0 text-right">2 days ago...</h6>
-                                            </div>
-                                        </div>
-                                        <p class="mb-3 mt-2"><span>Top quality</span>- Regular updates - Clean n Neat code - Saves lots of developing time - Powerful documentation - Package contain seperate layouts so <span>no need to change in code.</span></p>
-                                        <h6 class="mb-3">VishalMG, India</h6>
+                                    <div class="col">
+                                        <h4 class="m-0 text-white">3</h4>
+                                        <span>Solved</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- [ Reviews ] end -->
-
-            <!-- [ ticket ] start -->
-            <section id="support" class="ticket">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col">
-                            <div class="ticket-block">
-                                <span class="mb-3 ticket-title">Average Response time 24 Hours</span>
-                                <div class="row justify-content-center">
-                                    <div class="col-md-4 text-center">
-                                        <p class="mb-4">This should be used to make your project & talk about your product or service.</p>
-                                        <a href="https://phoenixcoded.ticksy.com/" class="btn" target="_blank"><img src="assets/images/mail.png" alt="" class="mr-1"> Open Ticket</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- [ ticket ] end -->
-
-            <!-- [ Products ] Start -->
-            <section id="products" class="products theme-alt-bg">
-                <div class="container title">
-                    <h2><span>Explore</span> Admin Template</h2>
-                    <div class="bg-text">Products</div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="prod-block mb-5">
-                                <a href="https://themeforest.net/item/mega-able-bootstrap-4-and-angular-5-admin-dashboard-template/20790784?ref=phoenixcoded" target="_blank"><img src="assets/images/product/mega-able.jpg" alt="mega-able" class="img-fluid"></a>
-                                <div class="prod-cont">
-                                    <h5 class="mb-3">Mega Able Bootstrap 4 and Angular 6 Admin Dashboard Template</h5>
-                                    <p class="mb-4">Mega Able is another success admin template from Phoenixcoded with Bootstrap 4 & Angular 6 pure TypeScript</p>
-                                    <a href="http://preview.themeforest.net/item/mega-able-bootstrap-4-and-angular-5-admin-dashboard-template/full_screen_preview/20790784?_ga=2.144195125.1050146946.1517563189-1354582091.1517563189" target="_blank" class="btn btn-danger mr-4">Live Demo</a>
-                                    <a href="https://themeforest.net/item/mega-able-bootstrap-4-and-angular-5-admin-dashboard-template/20790784?ref=phoenixcoded" target="_blank" class="btn btn-success">Buy Now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="prod-block mb-5">
-                                <a href="https://themeforest.net/item/dash-able-bootstrap-admin-template/19455399?ref=phoenixcoded" target="_blank"><img src="assets/images/product/dash-able.png" alt="dash-able" class="img-fluid"></a>
-                                <div class="prod-cont">
-                                    <h5 class="mb-3">Dash Able Bootstrap 4 and Angular 6 Admin Dashboard Template</h5>
-                                    <p class="mb-4">Dash Able is another success admin template from Phoenixcoded with Bootstrap 4 & Angular 6 pure TypeScript</p>
-                                    <a href="http://html.phoenixcoded.net/dash-able/" target="_blank" class="btn btn-danger mr-4">Live Demo</a>
-                                    <a href="https://themeforest.net/item/dash-able-bootstrap-admin-template/19455399?ref=phoenixcoded" target="_blank" class="btn btn-success">Buy Now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="prod-block mb-5">
-                                <a href="https://themeforest.net/item/flat-able-angular-4-admin-template/20664478?ref=phoenixcoded" target="_blank"><img src="assets/images/product/flat-ang.jpg" alt="flat-able" class="img-fluid"></a>
-                                <div class="prod-cont">
-                                    <h5 class="mb-3">Flat Able - Angular Admin Template</h5>
-                                    <p class="mb-4">Flat Able also seperately sold as Angular version. Comes with Pure TypeScript version too.</p>
-                                    <a href="http://preview.themeforest.net/item/flat-able-angular-4-admin-template/full_screen_preview/20664478?_ga=2.81261591.1050146946.1517563189-1354582091.1517563189" target="_blank" class="btn btn-danger mr-4">Live Demo</a>
-                                    <a href="https://themeforest.net/item/flat-able-angular-4-admin-template/20664478?ref=phoenixcoded" target="_blank" class="btn btn-success">Buy Now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="prod-block mb-5">
-                                <a href="https://themeforest.net/item/flat-able-bootstrap-4-admin-template/19842250?ref=phoenixcoded" target="_blank"><img src="assets/images/product/flat-able.jpg" alt="flat-able" class="img-fluid"></a>
-                                <div class="prod-cont">
-                                    <h5 class="mb-3">Flat Able v2.0- Premium Admin Template</h5>
-                                    <p class="mb-4">Flat able comes with modern flat UI Interface which makes flat able dashboard template a unique admin theme.</p>
-                                    <a href="http://preview.themeforest.net/item/flat-able-bootstrap-4-admin-template/full_screen_preview/19842250?_ga=2.137370416.1050146946.1517563189-1354582091.1517563189" target="_blank" class="btn btn-danger mr-4">Live Demo</a>
-                                    <a href="https://themeforest.net/item/flat-able-bootstrap-4-admin-template/19842250?ref=phoenixcoded" target="_blank" class="btn btn-success">Buy Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- [ Products ] end -->
-
-            <!-- [ Subscribe ] Start -->
-            <section class="subscribe">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col">
-                            <div class="mail-block">
+                <!-- support-section end -->
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <!-- page statustic card start -->
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
                                 <div class="row align-items-center">
-                                    <div class="col-md-4 text-center">
-                                        <h2>Get in Touch</h2>
-                                        <p>Subscribe to our newsletter to receive news and updates.</p>
+                                    <div class="col-8">
+                                        <h4 class="text-c-yellow">$30200</h4>
+                                        <h6 class="text-muted m-b-0">All Earnings</h6>
                                     </div>
-                                    <div class="col-md-8">
-                                        <div id="mc_embed_signup">
-                                            <form action="https://phoenixcoded.us13.list-manage.com/subscribe/post?u=17638f4d889e3e29b932a16ec&amp;id=ec70465188" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-                                                novalidate>
-                                                <div class="input-group mb-0" id="mc_embed_signup_scroll">
-                                                    <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="Enter Email Address...." required>
-                                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_17638f4d889e3e29b932a16ec_ec70465188" tabindex="-1" value=""></div>
-                                                    <div class="input-group-append">
-                                                        <button class="btn btn-primary" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
-                                                    </div>
+                                    <div class="col-4 text-right">
+                                        <i class="feather icon-bar-chart-2 f-28"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-c-yellow">
+                                <div class="row align-items-center">
+                                    <div class="col-9">
+                                        <p class="text-white m-b-0">% change</p>
+                                    </div>
+                                    <div class="col-3 text-right">
+                                        <i class="feather icon-trending-up text-white f-16"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-8">
+                                        <h4 class="text-c-green">290+</h4>
+                                        <h6 class="text-muted m-b-0">Page Views</h6>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <i class="feather icon-file-text f-28"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-c-green">
+                                <div class="row align-items-center">
+                                    <div class="col-9">
+                                        <p class="text-white m-b-0">% change</p>
+                                    </div>
+                                    <div class="col-3 text-right">
+                                        <i class="feather icon-trending-up text-white f-16"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-8">
+                                        <h4 class="text-c-red">145</h4>
+                                        <h6 class="text-muted m-b-0">Task</h6>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <i class="feather icon-calendar f-28"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-c-red">
+                                <div class="row align-items-center">
+                                    <div class="col-9">
+                                        <p class="text-white m-b-0">% change</p>
+                                    </div>
+                                    <div class="col-3 text-right">
+                                        <i class="feather icon-trending-down text-white f-16"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-8">
+                                        <h4 class="text-c-blue">500</h4>
+                                        <h6 class="text-muted m-b-0">Downloads</h6>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <i class="feather icon-thumbs-down f-28"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-c-blue">
+                                <div class="row align-items-center">
+                                    <div class="col-9">
+                                        <p class="text-white m-b-0">% change</p>
+                                    </div>
+                                    <div class="col-3 text-right">
+                                        <i class="feather icon-trending-down text-white f-16"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- page statustic card end -->
+            </div>
+            <!-- prject ,team member start -->
+            <div class="col-xl-6 col-md-12">
+                <div class="card table-card">
+                    <div class="card-header">
+                        <h5>Projects</h5>
+                        <div class="card-header-right">
+                            <div class="btn-group card-option">
+                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="feather icon-more-horizontal"></i>
+                                </button>
+                                <ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+                                    <li class="dropdown-item full-card"><a href="#!"><span><i class="feather icon-maximize"></i> maximize</span><span style="display:none"><i class="feather icon-minimize"></i> Restore</span></a></li>
+                                    <li class="dropdown-item minimize-card"><a href="#!"><span><i class="feather icon-minus"></i> collapse</span><span style="display:none"><i class="feather icon-plus"></i> expand</span></a></li>
+                                    <li class="dropdown-item reload-card"><a href="#!"><i class="feather icon-refresh-cw"></i> reload</a></li>
+                                    <li class="dropdown-item close-card"><a href="#!"><i class="feather icon-trash"></i> remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-hover mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <div class="chk-option">
+                                                <label class="check-task custom-control custom-checkbox d-flex justify-content-center done-task">
+                                                    <input type="checkbox" class="custom-control-input">
+                                                    <span class="custom-control-label"></span>
+                                                </label>
+                                            </div>
+                                            Assigned
+                                        </th>
+                                        <th>Name</th>
+                                        <th>Due Date</th>
+                                        <th class="text-right">Priority</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="chk-option">
+                                                <label class="check-task custom-control custom-checkbox d-flex justify-content-center done-task">
+                                                    <input type="checkbox" class="custom-control-input">
+                                                    <span class="custom-control-label"></span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block align-middle">
+                                                <img src="assets/images/user/avatar-4.jpg" alt="user image" class="img-radius wid-40 align-top m-r-15">
+                                                <div class="d-inline-block">
+                                                    <h6>John Deo</h6>
+                                                    <p class="text-muted m-b-0">Graphics Designer</p>
                                                 </div>
-                                            </form>
+                                            </div>
+                                        </td>
+                                        <td>Able Pro</td>
+                                        <td>Jun, 26</td>
+                                        <td class="text-right"><label class="badge badge-light-danger">Low</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="chk-option">
+                                                <label class="check-task custom-control custom-checkbox d-flex justify-content-center done-task">
+                                                    <input type="checkbox" class="custom-control-input">
+                                                    <span class="custom-control-label"></span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block align-middle">
+                                                <img src="assets/images/user/avatar-2.jpg" alt="user image" class="img-radius wid-40 align-top m-r-15">
+                                                <div class="d-inline-block">
+                                                    <h6>Jenifer Vintage</h6>
+                                                    <p class="text-muted m-b-0">Web Designer</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>Mashable</td>
+                                        <td>March, 31</td>
+                                        <td class="text-right"><label class="badge badge-light-primary">high</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="chk-option">
+                                                <label class="check-task custom-control custom-checkbox d-flex justify-content-center done-task">
+                                                    <input type="checkbox" class="custom-control-input">
+                                                    <span class="custom-control-label"></span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block align-middle">
+                                                <img src="assets/images/user/avatar-3.jpg" alt="user image" class="img-radius wid-40 align-top m-r-15">
+                                                <div class="d-inline-block">
+                                                    <h6>William Jem</h6>
+                                                    <p class="text-muted m-b-0">Developer</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>Flatable</td>
+                                        <td>Aug, 02</td>
+                                        <td class="text-right"><label class="badge badge-light-success">medium</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="chk-option">
+                                                <label class="check-task custom-control custom-checkbox d-flex justify-content-center done-task">
+                                                    <input type="checkbox" class="custom-control-input">
+                                                    <span class="custom-control-label"></span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block align-middle">
+                                                <img src="assets/images/user/avatar-2.jpg" alt="user image" class="img-radius wid-40 align-top m-r-15">
+                                                <div class="d-inline-block">
+                                                    <h6>David Jones</h6>
+                                                    <p class="text-muted m-b-0">Developer</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>Guruable</td>
+                                        <td>Sep, 22</td>
+                                        <td class="text-right"><label class="badge badge-light-primary">high</label></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-12">
+                <div class="card latest-update-card">
+                    <div class="card-header">
+                        <h5>Latest Updates</h5>
+                        <div class="card-header-right">
+                            <div class="btn-group card-option">
+                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="feather icon-more-horizontal"></i>
+                                </button>
+                                <ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+                                    <li class="dropdown-item full-card"><a href="#!"><span><i class="feather icon-maximize"></i> maximize</span><span style="display:none"><i class="feather icon-minimize"></i> Restore</span></a></li>
+                                    <li class="dropdown-item minimize-card"><a href="#!"><span><i class="feather icon-minus"></i> collapse</span><span style="display:none"><i class="feather icon-plus"></i> expand</span></a></li>
+                                    <li class="dropdown-item reload-card"><a href="#!"><i class="feather icon-refresh-cw"></i> reload</a></li>
+                                    <li class="dropdown-item close-card"><a href="#!"><i class="feather icon-trash"></i> remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="latest-update-box">
+                            <div class="row p-t-30 p-b-30">
+                                <div class="col-auto text-right update-meta">
+                                    <p class="text-muted m-b-0 d-inline-flex">2 hrs ago</p>
+                                    <i class="feather icon-twitter bg-twitter update-icon"></i>
+                                </div>
+                                <div class="col">
+                                    <a href="#!">
+                                        <h6>+ 1652 Followers</h6>
+                                    </a>
+                                    <p class="text-muted m-b-0">You’re getting more and more followers, keep it up!</p>
+                                </div>
+                            </div>
+                            <div class="row p-b-30">
+                                <div class="col-auto text-right update-meta">
+                                    <p class="text-muted m-b-0 d-inline-flex">4 hrs ago</p>
+                                    <i class="feather icon-briefcase bg-c-red update-icon"></i>
+                                </div>
+                                <div class="col">
+                                    <a href="#!">
+                                        <h6>+ 5 New Products were added!</h6>
+                                    </a>
+                                    <p class="text-muted m-b-0">Congratulations!</p>
+                                </div>
+                            </div>
+                            <div class="row p-b-0">
+                                <div class="col-auto text-right update-meta">
+                                    <p class="text-muted m-b-0 d-inline-flex">2 day ago</p>
+                                    <i class="feather icon-facebook bg-facebook update-icon"></i>
+                                </div>
+                                <div class="col">
+                                    <a href="#!">
+                                        <h6>+1 Friend Requests</h6>
+                                    </a>
+                                    <p class="text-muted m-b-10">This is great, keep it up!</p>
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <tr>
+                                                <td class="b-none">
+                                                    <a href="#!" class="align-middle">
+                                                        <img src="assets/images/user/avatar-2.jpg" alt="user image" class="img-radius wid-40 align-top m-r-15">
+                                                        <div class="d-inline-block">
+                                                            <h6>Jeny William</h6>
+                                                            <p class="text-muted m-b-0">Graphic Designer</p>
+                                                        </div>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <a href="#!" class="b-b-primary text-primary">View all Projects</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- prject ,team member start -->
+            <!-- seo start -->
+            <div class="col-xl-4 col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <h3>$16,756</h3>
+                                <h6 class="text-muted m-b-0">Visits<i class="fa fa-caret-down text-c-red m-l-10"></i></h6>
+                            </div>
+                            <div class="col-6">
+                                <div id="seo-chart1" class="d-flex align-items-end"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <h3>49.54%</h3>
+                                <h6 class="text-muted m-b-0">Bounce Rate<i class="fa fa-caret-up text-c-green m-l-10"></i></h6>
+                            </div>
+                            <div class="col-6">
+                                <div id="seo-chart2" class="d-flex align-items-end"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <h3>1,62,564</h3>
+                                <h6 class="text-muted m-b-0">Products<i class="fa fa-caret-down text-c-red m-l-10"></i></h6>
+                            </div>
+                            <div class="col-6">
+                                <div id="seo-chart3" class="d-flex align-items-end"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- seo end -->
+
+            <!-- Latest Customers start -->
+            <div class="col-lg-8 col-md-12">
+                <div class="card table-card review-card">
+                    <div class="card-header borderless ">
+                        <h5>Customer Reviews</h5>
+                        <div class="card-header-right">
+                            <div class="btn-group card-option">
+                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="feather icon-more-horizontal"></i>
+                                </button>
+                                <ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+                                    <li class="dropdown-item full-card"><a href="#!"><span><i class="feather icon-maximize"></i> maximize</span><span style="display:none"><i class="feather icon-minimize"></i> Restore</span></a></li>
+                                    <li class="dropdown-item minimize-card"><a href="#!"><span><i class="feather icon-minus"></i> collapse</span><span style="display:none"><i class="feather icon-plus"></i> expand</span></a></li>
+                                    <li class="dropdown-item reload-card"><a href="#!"><i class="feather icon-refresh-cw"></i> reload</a></li>
+                                    <li class="dropdown-item close-card"><a href="#!"><i class="feather icon-trash"></i> remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="review-block">
+                            <div class="row">
+                                <div class="col-sm-auto p-r-0">
+                                    <img src="assets/images/user/avatar-2.jpg" alt="user image" class="img-radius profile-img cust-img m-b-15">
+                                </div>
+                                <div class="col">
+                                    <h6 class="m-b-15">John Deo <span class="float-right f-13 text-muted"> a week ago</span></h6>
+                                    <a href="#!"><i class="feather icon-star-on f-18 text-c-yellow"></i></a>
+                                    <a href="#!"><i class="feather icon-star-on f-18 text-c-yellow"></i></a>
+                                    <a href="#!"><i class="feather icon-star-on f-18 text-c-yellow"></i></a>
+                                    <a href="#!"><i class="feather icon-star f-18 text-muted"></i></a>
+                                    <a href="#!"><i class="feather icon-star f-18 text-muted"></i></a>
+                                    <p class="m-t-15 m-b-15 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                        took a
+                                        galley of type and scrambled it to make a type specimen book.</p>
+                                    <a href="#!" class="m-r-30 text-muted"><i class="feather icon-thumbs-up m-r-15"></i>Helpful?</a>
+                                    <a href="#!"><i class="feather icon-heart-on text-c-red m-r-15"></i></a>
+                                    <a href="#!"><i class="feather icon-edit text-muted"></i></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-auto p-r-0">
+                                    <img src="assets/images/user/avatar-4.jpg" alt="user image" class="img-radius profile-img cust-img m-b-15">
+                                </div>
+                                <div class="col">
+                                    <h6 class="m-b-15">Allina D’croze <span class="float-right f-13 text-muted"> a week ago</span></h6>
+                                    <a href="#!"><i class="feather icon-star-on f-18 text-c-yellow"></i></a>
+                                    <a href="#!"><i class="feather icon-star f-18 text-muted"></i></a>
+                                    <a href="#!"><i class="feather icon-star f-18 text-muted"></i></a>
+                                    <a href="#!"><i class="feather icon-star f-18 text-muted"></i></a>
+                                    <a href="#!"><i class="feather icon-star f-18 text-muted"></i></a>
+                                    <p class="m-t-15 m-b-15 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                        took a
+                                        galley of type and scrambled it to make a type specimen book.</p>
+                                    <a href="#!" class="m-r-30 text-muted"><i class="feather icon-thumbs-up m-r-15"></i>Helpful?</a>
+                                    <a href="#!"><i class="feather icon-heart-on text-c-red m-r-15"></i></a>
+                                    <a href="#!"><i class="feather icon-edit text-muted"></i></a>
+                                    <blockquote class="blockquote m-t-15 m-b-0">
+                                        <h6>Allina D’croze</h6>
+                                        <p class="m-b-0 text-muted">Lorem Ipsum is simply dummy text of the industry.</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-right  m-r-20">
+                            <a href="#!" class="b-b-primary text-primary">View all Customer Reviews</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="mb-3">Power</h5>
+                                <h2>2789<span class="text-muted m-l-5 f-14">kw</span></h2>
+                                <div id="power-card-chart1"></div>
+                                <div class="row">
+                                    <div class="col col-auto">
+                                        <div class="map-area">
+                                            <h6 class="m-0">2876 <span> kw</span></h6>
+                                            <p class="text-muted m-0">month</p>
                                         </div>
+                                    </div>
+                                    <div class="col col-auto">
+                                        <div class="map-area">
+                                            <h6 class="m-0">234 <span> kw</span></h6>
+                                            <p class="text-muted m-0">Today</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="mb-3">Temperature</h5>
+                                <h2>7.3<span class="text-muted m-l-10 f-14">deg</span></h2>
+                                <div id="power-card-chart3"></div>
+                                <div class="row">
+                                    <div class="col col-auto">
+                                        <div class="map-area">
+                                            <h6 class="m-0">4.5 <span> deg</span></h6>
+                                            <p class="text-muted m-0">month</p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-auto">
+                                        <div class="map-area">
+                                            <h6 class="m-0">0.5 <span> deg</span></h6>
 
+                                            <p class="text-muted m-0">Today</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-
-
-            <!--End mc_embed_signup-->
-
-            <!-- [ Subscribe ] end -->
-
-            <!-- [ Price ] Start -->
-            <section class="price">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4 col-md-12">
-                            <h3 class="mb-3">Choose Your Plan</h3>
-                            <h5 class="mb-3 d-flex align-items-center">Quality checked by <span class="bg-envato d-inline-block"></span></h5>
-                            <p>Pricing table help you to understand which type of license you required for your project. If you still have any question please contact us on our <a href="https://codedthemes.support-hub.io/" target="_blank">support desk</a></p>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="card chat-card">
+                    <div class="card-header">
+                        <h5>Chat</h5>
+                        <div class="card-header-right">
+                            <div class="btn-group card-option">
+                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="feather icon-more-horizontal"></i>
+                                </button>
+                                <ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+                                    <li class="dropdown-item full-card"><a href="#!"><span><i class="feather icon-maximize"></i> maximize</span><span style="display:none"><i class="feather icon-minimize"></i> Restore</span></a></li>
+                                    <li class="dropdown-item minimize-card"><a href="#!"><span><i class="feather icon-minus"></i> collapse</span><span style="display:none"><i class="feather icon-plus"></i> expand</span></a></li>
+                                    <li class="dropdown-item reload-card"><a href="#!"><i class="feather icon-refresh-cw"></i> reload</a></li>
+                                    <li class="dropdown-item close-card"><a href="#!"><i class="feather icon-trash"></i> remove</a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="col-lg-8 col-md-12">
-                            <div class="row align-items-center justify-content-end price-ct">
-                                <div class="col-md-6 small-price">
-                                    <div class="price-block">
-                                        <h2>Regular</h2>
-                                        <h5 class="text-right mr-4">Licence</h5>
-                                        <label class="amount"><sup style="font-size:20px;top:-1em;">$</sup> 25</label>
-                                        <p>Use, by you or one client, in a single end product which end users are not charged for. The total price includes the item price and a buyer fee.</p>
-                                        <ul class="list-unstyled text-left">
-                                            <li class="d-flex mb-1">
-                                                <div class="bg-double_tick d-inline-block mr-2"></div> Create Single Website
-                                            </li>
-                                            <li class="d-flex mb-1">
-                                                <div class="bg-double_tick d-inline-block mr-2"></div>Future Updates
-                                            </li>
-                                            <li class="d-flex mb-1">
-                                                <div class="bg-double_tick d-inline-block mr-2"></div>6 Months Support
-                                            </li>
-                                        </ul>
-                                        <a href="https://1.envato.market/c/1289604/275988/4415?subId1=phoenixcoded&amp;u=https%3A%2F%2Fthemeforest.net%2Fitem%2Fable-pro-responsive-bootstrap-4-admin-template%2F19300403" target="_blank" class="btn btn-success">Buy Now</a>
-                                    </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row m-b-20 received-chat">
+                            <div class="col-auto p-r-0">
+                                <img src="assets/images/user/avatar-2.jpg" alt="user image" class="img-radius wid-40">
+                            </div>
+                            <div class="col">
+                                <div class="msg">
+                                    <p class="m-b-0">Nice to meet you!</p>
                                 </div>
-                                <div class="col-md-7 big-price">
-                                    <div class="price-block">
-                                        <h2>Extended</h2>
-                                        <h5 class="text-right">Licence</h5>
-                                        <label class="amount"><sup style="font-size:20px;top:-1em;">$</sup> 700</label>
-                                        <p>Use, by you or one client, in a single end product which end users can be charged for. The total price includes the item price and a buyer fee.</p>
-                                        <ul class="list-unstyled text-left">
-                                            <li class="d-flex mb-1">
-                                                <div class="bg-double_tick d-inline-block mr-2"></div>Create Unlimited Websites
-                                            </li>
-                                            <li class="d-flex mb-1">
-                                                <div class="bg-double_tick d-inline-block mr-2"></div>Use in an end product that's sold
-                                            </li>
-                                            <li class="d-flex mb-1">
-                                                <div class="bg-double_tick d-inline-block mr-2"></div>For Multiple Developers
-                                            </li>
-                                        </ul>
-                                        <a href="https://1.envato.market/c/1289604/275988/4415?subId1=phoenixcoded&amp;u=https%3A%2F%2Fthemeforest.net%2Fitem%2Fable-pro-responsive-bootstrap-4-admin-template%2F19300403" target="_blank" class="btn btn-success">Buy Now</a>
-                                    </div>
+                                <p class="text-muted m-b-0"><i class="fa fa-clock-o m-r-10"></i>10:20am</p>
+                            </div>
+                        </div>
+                        <div class="row m-b-20 send-chat">
+                            <div class="col">
+                                <div class="msg">
+                                    <p class="m-b-0">Nice to meet you!</p>
                                 </div>
+                                <p class="text-muted m-b-0"><i class="fa fa-clock-o m-r-10"></i>10:20am</p>
+                            </div>
+                            <div class="col-auto p-l-0">
+                                <img src="assets/images/user/avatar-3.jpg" alt="user image" class="img-radius wid-40">
+                            </div>
+                        </div>
+                        <div class="row m-b-20 received-chat">
+                            <div class="col-auto p-r-0">
+                                <img src="assets/images/user/avatar-2.jpg" alt="user image" class="img-radius wid-40">
+                            </div>
+                            <div class="col">
+                                <div class="msg">
+                                    <p class="m-b-0">Nice to meet you!</p>
+                                    <img src="assets/images/widget/dashborad-1.jpg" alt="">
+                                    <img src="assets/images/widget/dashborad-3.jpg" alt="">
+                                </div>
+                                <p class="text-muted m-b-0"><i class="fa fa-clock-o m-r-10"></i>10:20am</p>
+                            </div>
+                        </div>
+                        <div class="form-group m-t-15">
+                            <label class="floating-label" for="Project">Send message</label>
+                            <input type="text" name="task-insert" class="form-control" id="Project">
+                            <div class="form-icon">
+                                <button class="btn btn-primary btn-icon">
+                                    <i class="feather icon-message-circle"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- [ Price ] end -->
-
-            <!-- [ Footer ] Start -->
-            <footer class="theme-bg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-4">
-                            <ul class="list-unstyled">
-                                <li><img src="assets/images/logo.png" alt=""></li>
-                                <li class="mt-3 mb-3 d-flex align-items-center">
-                                    <div class="bg-mail_new mr-2"></div><a class="d-inline-block" href="http://phoenixcoded.net/support">http://phoenixcoded.net/support</a>
-                                </li>
-                                <li class="mt-3 mb-3 d-flex align-items-center">
-                                    <div class="bg-call mr-2"></div><a class="d-inline-block" href="mailto:phoenixcoded.gmail.com">phoenixcoded.gmail.com</a>
-                                </li>
-                                <li class="mt-3 mb-3 d-flex align-items-center">
-                                    <div class="bg-footer_web mr-2"></div><a class="d-inline-block" href="http://phoenixcoded.net/">http://phoenixcoded.net/</a>
-                                </li>
-                            </ul>
+                <div class="card user-card2">
+                    <div class="card-body text-center">
+                        <h6 class="m-b-15">Project Risk</h6>
+                        <div class="risk-rate">
+                            <span><b>5</b></span>
                         </div>
-                        <div class="col-md-6 col-lg-4">
-                            <h5>Useful links</h5>
-                            <ul class="list-unstyled">
-                                <li class="mt-2 mb-2"><a href="https://themeforest.net/downloads" target="_blank">Rate Able Pro</a></li>
-                                <li class="mt-2 mb-2"><a href="#!" target="_blank">Collection</a></li>
-                                <li class="mt-2 mb-2"><a href="https://themeforest.net/user/phoenixcoded" target="_blank">Themeforest Profile</a> </li>
-                                <li class="mt-2 mb-2"><a href="https://themeforest.net/user/phoenixcoded/portfolio" target="_blank">Portfolio</a></li>
-                                <li class="mt-2 mb-2"><a href="https://themeforest.net/collections/6544381-premium-admin-dashboard-templates" target="_blank"><span class="highlight-text"> Our Bootstrap Admin Template</span></a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <h5>Trending Items</h5>
-                            <ul class="list-unstyled">
-                                <li class="mt-2 mb-2"><a href="https://themeforest.net/item/dash-able-bootstrap-admin-template/19455399?ref=phoenixcoded" target="_blank">Dash Able</a> </li>
-                                <li class="mt-2 mb-2"><a href="https://themeforest.net/item/flat-able-bootstrap-4-admin-template/19842250?ref=phoenixcoded" target="_blank">Flat Able</a></li>
-                                <li class="mt-2 mb-2"><a href="https://themeforest.net/item/mega-able-bootstrap-4-and-angular-5-admin-dashboard-template/20790784?ref=phoenixcoded" target="_blank">Mega Able</a> </li>
-                            </ul>
-                            <h5 class="mt-4">Follow Us</h5>
-                            <ul class="list-inline list-unstyled sos-icon">
-                                <li><a href="https://www.facebook.com/Phoenixcoded/" target="_blank" ><div class="bg-facebook"></div></a></li>
-                                <li><a href="https://twitter.com/phoenixcoded" target="_blank"><div class="bg-twitter"></div></a></li>
-                                <li><a href="https://in.linkedin.com/company/phoenixcoded" target="_blank"><div class="bg-in"></div></a></li>
-                            </ul>
+                        <h6 class="m-b-10 m-t-10">Balanced</h6>
+                        <a href="#!" class="text-c-green b-b-success">Change Your Risk</a>
+                        <div class="row justify-content-center m-t-10 b-t-default m-l-0 m-r-0">
+                            <div class="col m-t-15 b-r-default">
+                                <h6 class="text-muted">Nr</h6>
+                                <h6>AWS 2455</h6>
+                            </div>
+                            <div class="col m-t-15">
+                                <h6 class="text-muted">Created</h6>
+                                <h6>30th Sep</h6>
+                            </div>
                         </div>
                     </div>
+                    <button class="btn btn-success btn-block">Download Overall Report</button>
                 </div>
-                <div class="container b-footer">
-                    <span class="bottom-tag">Phoenixcoded</span>
-                    <p>© 2018 <a href="http://phoenixcoded.net/" target="_blank">phoenixcoded</a>. Exclusively on <a href="https://1.envato.market/c/1289604/275988/4415?u=https%3A%2F%2Fthemeforest.net%2Fuser%2Fphoenixcoded" target="_blank">Themeforest</a></p>
-                </div>
-            </footer>
-            <!-- [ Footer ] end -->
+            </div>
+            <!-- Latest Customers end -->
+        </div>
+        <!-- [ Main Content ] end -->
+    </div>
+</div>
+<!-- Button trigger modal -->
 
-            <!-- Jquery and Js Plugins -->
-            <script type="text/javascript" src="assets/js/vendor-all.min.js"></script>
-            <script type="text/javascript" src="assets/js/script.min.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-90716026-1"></script>
+<!-- Modal -->
+
+<!-- [ Main Content ] end -->
+    <!-- Warning Section start -->
+    <!-- Older IE warning message -->
+    <!--[if lt IE 11]>
+        <div class="ie-warning">
+            <h1>Warning!!</h1>
+            <p>You are using an outdated version of Internet Explorer, please upgrade
+               <br/>to any of the following web browsers to access this website.
+            </p>
+            <div class="iew-container">
+                <ul class="iew-download">
+                    <li>
+                        <a href="http://www.google.com/chrome/">
+                            <img src="assets/images/browser/chrome.png" alt="Chrome">
+                            <div>Chrome</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.mozilla.org/en-US/firefox/new/">
+                            <img src="assets/images/browser/firefox.png" alt="Firefox">
+                            <div>Firefox</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.opera.com">
+                            <img src="assets/images/browser/opera.png" alt="Opera">
+                            <div>Opera</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.apple.com/safari/">
+                            <img src="assets/images/browser/safari.png" alt="Safari">
+                            <div>Safari</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                            <img src="assets/images/browser/ie.png" alt="">
+                            <div>IE (11 & above)</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>Sorry for the inconvenience!</p>
+        </div>
+    <![endif]-->
+    <!-- Warning Section Ends -->
+
+    <!-- Required Js -->
+    <script src="assets/js/vendor-all.min.js"></script>
+    <script src="assets/js/plugins/bootstrap.min.js"></script>
+    <script src="assets/js/ripple.js"></script>
+    <script src="assets/js/pcoded.min.js"></script>
+	<script src="assets/js/menu-setting.min.js"></script>
+
+<!-- Apex Chart -->
+<script src="assets/js/plugins/apexcharts.min.js"></script>
+<!-- custom-chart js -->
+<script src="assets/js/pages/dashboard-main.js"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    $(document).ready(function() {
+        checkCookie();
+    });
 
-  gtag('config', 'UA-90716026-1');
+    function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + d.toGMTString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+
+    function checkCookie() {
+        var ticks = getCookie("modelopen");
+        if (ticks != "") {
+            ticks++ ;
+            setCookie("modelopen", ticks, 1);
+            if (ticks == "2" || ticks == "1" || ticks == "0") {
+                $('#exampleModalCenter').modal();
+            }
+        } else {
+            // user = prompt("Please enter your name:", "");
+            $('#exampleModalCenter').modal();
+            ticks = 1;
+            setCookie("modelopen", ticks, 1);
+        }
+    }
 </script>
 
 
 </body>
 
-
-<!-- Mirrored from ableproadmin.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Sep 2020 18:11:12 GMT -->
 </html>
